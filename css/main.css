@@ -1,0 +1,295 @@
+body {
+	background-color: #ffffff !important;
+}
+
+nav div.container-fluid {
+	background-color: #E9F3F5;
+	margin-bottom: 25px;
+}
+
+ul.navbar-right {
+	padding-right: 15px;
+}
+
+ nav div a.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	color: #33909B ;
+}
+
+nav ul li a {
+	color: #33909B;
+}
+
+nav ul li a.Mission {
+	color: #30BFD0;
+}
+
+/*===== CAROUSEL CAPTION STYLES====*/
+
+.carousel div.container-fluid {
+	padding: 0;
+}
+
+
+div .row .carousel-caption .animated {
+	color: #FAEEEE;
+	margin-bottom: 35px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+}
+/*====BUTTON===*/
+div .row .carousel-caption .btn {
+	width: 100px;
+	background-color: transparent !important;
+	margin-bottom: 20px;
+	color: #4AA7CA;
+	font-size: 1.5em;
+
+}
+
+div .row .carousel-caption .left {
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: left;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 3.4em;
+    color: #30BFD0;
+
+}
+
+div .row .carousel-caption .right {
+	 font-family: 'Open Sans Condensed', sans-serif;
+    float: right;
+    margin-bottom: 130px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 3.4em;
+    color: #FAEEEE;
+}
+
+/*======ABOUT ME STYLES=====*/
+section.about  {
+	padding: 60px 0;
+	background-color: #FBFBFB;
+	height: 400px;
+}
+
+.about div.container .row .col-xs-3 img {
+	
+	border: 5px solid #30BFD0;
+
+}
+
+.about div.container .row .col-sm-8 {
+	text-align: left;
+	padding: 0 30px;
+	
+}
+/*STYLE FOR JAVASCRIPT*/
+
+}
+
+.about .col-sm-8 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #33909B;
+    text-decoration: underline;
+}
+
+
+
+
+.about .col-sm-8 p {
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+
+.about .col-sm-8 img {
+	float: right;
+	position: absolute;
+	right: -35px;
+	top: 55px;
+}
+     /*======IMAGES SECTION STYLES=====*/
+
+
+section.images {
+	background: url('../img/wood.jpg');
+	opacity: 0.8;
+}
+
+section .row .col-xs-12 h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+    color: #FAFAFA;
+    margin: 40px auto;
+    border-bottom: 2px dotted #FAFAFA;
+    width: 40%;
+    padding-bottom: 10px;
+    opacity: none;
+
+    
+}
+
+section .row .col-xs-4 h1{
+	font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+    
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+ 
+section .row .col-xs-4 {
+	text-align: center;
+}
+
+.col-xs-4 img.img-responsive {
+	margin: 0 auto;
+	border-radius: 10px;
+	border:1px solid black;
+	
+}
+
+.col-xs-4 img:hover {
+	opacity: 0.9;
+}
+
+.col-xs-4 p {
+	font-size: 1.3em;
+	color: #FAFAFA;
+	margin: 15px 0;
+}
+
+/*FA-FONTS SECTION STYLES*/
+
+
+.fa-fonts .row {
+	text-align: center;
+	margin: 50px auto;
+	
+}
+
+.fa-fonts .col-xs-3{
+margin: 10px;
+width: 23%;
+height: 200px;
+border-radius: 10px;
+color: #F3EEEE;
+
+	
+}
+
+.fa-fonts #blue {
+	background-color: #9ACFD9;
+	padding:15px;
+}
+
+.fa-fonts #red {
+	background-color: #FC9360;
+	padding:15px;
+}
+
+.fa-fonts #green{
+	background-color: #75D893;
+	padding:15px;
+}
+
+.fa-fonts #yellow {
+	background-color: #F1CD39;
+	padding:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /*My MISSION STYLES */
+
+.mission {
+	background-color: #9CE4B9
+}
+
+
+
+ .mission .row .col-md-12 h1{
+    font-family: 'Pacifico', cursive;
+    margin: 50px 0 0 150px;
+    color: black;
+    font-size: 4em;
+    
+ }
+
+ .mission .row .col-md-12 hr{
+ 	width: 80%;
+ }
+
+ .mission .row .col-md-6 p{
+ 	color: black;
+ 	font-family: serif;
+ 	font-size: 1.2em;
+ 	
+ } 
+
+
+ /*FOOTER STYLES*/
+
+ footer {
+ 	background-color: #121010;
+ 	
+ }
+
+ footer div.col-sm-4 h2 {
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	color: #fff;
+ 	text-align:center;
+ 	margin: 50px 0 0 0;
+ 	font-size: 3em;
+ }
+
+
+ footer div.col-sm-4 p {
+ 	color: #fff;
+ 	font-family: sans-serif;
+ 	font-size: 1.1em;
+ 	padding:20px 0 0 0;
+ 	text-align: center;
+
+ }
+
+
+footer .col-sm-4 {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+footer .col-sm-4 .fa {
+	
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 50%;
+	padding:10px 12px;
+	margin: 10px;
+
+
+}
+
+footer .col-xs-12 {
+	text-align: center;
+    color: #fff;
+}
+
+footer .col-xs-12 img{
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+}

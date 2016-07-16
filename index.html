@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--LINK TAGS-->	
+ <link rel="stylesheet" type="text/css" href="css/main.css">	
+
+ <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+ 
+ <!--GOOGLE FONTS-->
+ <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+      <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+
+
+       <!--BOOTSTRAP-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+	<title>Bootstrap Site</title>
+</head>
+<body>
+      <!--NAVIGATION-->
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Antonio's Book Club</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+        <a id="about" href="#aboutSection">About</a></li>
+        <li>
+        <a id="mission" href="#missionSection">My Mission</a></li>
+        <li>
+        <a id="contact" href="#contactSection">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Find Out More <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a id="top3" href="#top3Section">Top 3</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="Mission" href="#">My Mission</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<section class="carousel">
+   <div class="container-fluid">
+     <div class="row"> 
+        <div class="col-md-12">
+         
+        <div id="my-slide" class="carousel slide" data-ride="carousel">
+
+           <!--Indicators .nav-->
+       <ol class="carousel-indicators">
+       <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+       	<li data-target="#my-slide" data-slide-to="1"></li>
+       	<li data-target="#my-slide" data-slide-to="2"></li>
+       </ol>
+
+           <!--Wrapper for sliders-->
+   <div class="carousel-inner" role="listbox">
+      <div class="item active">
+         <img src="img/booklove2.jpg" alt="child reading">
+         <div class="carousel-caption">
+            <h2 class="animated zoomIn">Welcome To</h2>
+         <h1 class="animated zoomIn">Antonio's Book Club</h1> 
+         <a class="btn btn-link" href="#">Sign Up</a>  
+         </div>
+      </div>
+  
+
+   
+      <div class="item">
+         <img src="img/kids.jpg" alt="child reading">
+         <div class="carousel-caption">
+          <h2 class="left">"Today a Reader,<br>
+          Tomorrow a Leader."</h2>
+          </div>
+       </div>
+   
+
+      <div class="item">
+         <img src="img/kids3.jpg" alt="child reading">
+         <div class="carousel-caption">
+         	<h2 class="right">"Everyone is a reader...<br>Some just haven't found their<br> favorite book yet"</h2>
+         </div>
+       </div>
+   </div>
+
+       <!--controls or Next and Prev Buttons-->
+  <a class="left carousel-control" href="#my-slide" role="button" data-slide="prev">
+ <span class="glyphicon glyphicon-chevron-left"></span>
+ <span class="sr-only">Previous</span>
+  </a>
+
+ <a class="right carousel-control" href="#my-slide" role="button" data-slide="next">
+ <span class="glyphicon glyphicon-chevron-right"></span>
+ <span class="sr-only">Previous</span>
+  </a>
+ </div>
+
+        </div>
+      </div>
+   </div>
+
+   </section>
+
+   <!--About Me SECTION-->
+<section id="aboutSection" class="about">
+   <div class="container">
+     <div class="row">
+     
+       <div class="col-xs-3 col-sm-offset-1">
+          <img src="img/antonio2.jpg" class="img-circle img-responsive" alt="Antonio">
+       </div>
+
+       <div class="col-sm-8">
+       
+           <h1>About Me</h1>
+
+	       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+         
+	       <img src="img/pigeon.png" alt="Pigeon By Mo Willems" class="img-responsive" width="100" height="100">
+       	</div>
+    </div>
+  </div><!--Closes Container-->
+</section>
+
+
+    
+   
+     <section id="top3Section" class="images">
+         <div class="container-fluid">
+           
+         <div class="row">  
+           
+           <div class="col-xs-12">
+              <h1>Antonio's Top 3</h1>
+
+            </div>
+         </div><!--row closed-->
+
+         <div class="row">
+           <div class="col-xs-4">
+           	
+           	<img src="img/pigeon.jpg" alt="Pigeon BOok" height="250" width="250" class="img-responsive">
+           	  <p>"The Pigeon finds<br>a Hotdog"
+           	  <br><span>By Mo Willems</span></p>
+           </div>
+
+           <div class="col-xs-4">
+          
+           <img src="img/piggie.jpg" alt="Piggie and Gerald Book" class="img-responsive">  
+             <p> "I Will 
+             Suprise<br>My Friend"<br>
+             <span>By Mo Willems</span></p>
+           </div>
+
+           <div class="col-xs-4">
+           
+           <img src="img/pancho.jpeg" alt="Pancho Bandito" height="250" width="250" class="img-responsive">
+              <p>"Pancho Bandito and the<br>Amarillo Armadillo" <br>
+              <span>By Mike Sundy</span></p>
+           </div>
+      </div><!--Container Closed-->
+   </section>
+   
+
+
+   <!--MY MISSION SECTION-->
+      <section id="missionSection" class="mission">
+      	<div class="container-fluid">
+      		<div class="row">
+      			<div class="col-md-12">
+      				<h1>My Mission</h1>
+              <hr>
+      			</div>
+      		</div><!--row-->
+         <div class="row">
+         	  <div class="col-md-6 col-md-offset-3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+ <img src="img/gerald1.png" alt="gerald" class="img-responsive" height="231" width="200">
+         </div><!--row-->
+      <!---MODAL BUTTON-->
+
+
+      	</div><!--container-->
+      </section>
+
+      <footer id="contactSection">
+      	<div class="container">
+      		
+      	<div class="col-sm-4">
+      			<h2>Location</h2>
+            
+      			<p>123 Florida Street<br>Hayward CA</p>
+      		</div>
+
+        <div class="col-sm-4">
+      			<h2>Around The Web</h2>
+            
+      			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+      			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      			<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+            </div>
+
+        <div class="col-sm-4">
+          <h2>Join Book Club</h2>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor <a href="#">incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim 
+            <a href="#">veniam.</a>
+            </p>
+      			
+      		</div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+              <img src="img/pigeon1.png" alt="pigeon" class="img-responsive"> 
+                <p>Copyright &copy; Antonio's Book Club 2016</p>
+              </div>
+            </div>
+        </div>
+            
+      	</div>
+      </footer>
+
+
+
+
+        <!--JQUERY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="js/main.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
